@@ -1,0 +1,27 @@
+{
+    "name": "desabl/class_mapper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Milan Desancic",
+            "email": "milan.desancic92@gmail.com"
+        },
+        {
+            "name": "Dragan Dejanovic",
+            "email": "mephistopheles989@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "DesaBL\\ClassMapper\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DesaBL\\ClassMapper\\ClassMapperServiceProvider"
+            ]
+        }
+    }
+}
